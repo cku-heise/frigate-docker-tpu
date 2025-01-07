@@ -1,0 +1,15 @@
+mqtt:
+  enabled: False
+detectors:
+  coral:
+    type: edgetpu
+    device: pci 
+cameras:
+  wohnzimmer:
+    enabled: True
+    ffmpeg:
+      inputs:
+        - path: rtsp://192.168.1.123/stream1 #Beispiel-URL, durch eigenen RTSP-Stream-URL ersetzen
+          roles:
+            - detect
+            - record

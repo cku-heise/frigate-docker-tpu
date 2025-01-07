@@ -1,2 +1,3 @@
-# frigate-docker-tpu
-# frigate-docker-tpu
+# Beispieldateien für c't Artikel "Raspoptikum"
+
+Für Erklärungen siehe Artikeltext.
